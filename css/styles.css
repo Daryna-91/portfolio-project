@@ -4,8 +4,17 @@ h1 {
   font-size: 96px;
 }
 h2,
-h3 {
+h3,
+p {
   font-family: "Josefin Sans", sans-serif;
+}
+img {
+  border-radius: 10px;
+}
+@media (max-width: 900px) {
+  .project-description {
+    text-align: center;
+  }
 }
 .main-page {
   text-align: center;
@@ -25,6 +34,14 @@ h3 {
   background: #6c63ff;
   border-radius: 4px;
   color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.btn-branding-cat {
+  color: #6c63ff;
+  border: 1px solid #6c63ff;
+  border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
