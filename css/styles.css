@@ -11,14 +11,7 @@ p {
 img {
   border-radius: 10px;
 }
-@media (max-width: 900px) {
-  h1 {
-    font-size: 45px;
-  }
-  .project-description {
-    text-align: center;
-  }
-}
+
 .main-page {
   text-align: center;
   background-color: rgb(232, 228, 241);
@@ -48,4 +41,26 @@ img {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.about-me {
+  padding: 160px 20px;
+}
+.about-me h1 {
+  font-size: 50px;
+  line-height: 1;
+}
+.about-me h2 {
+  font-weight: 600;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 45px;
+  }
+  .project-description {
+    text-align: center;
+  }
+  .about-me {
+    text-align: center;
+    padding: 20px;
+  }
 }
