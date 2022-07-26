@@ -42,14 +42,14 @@ img {
   line-height: 27px;
   padding: 15px 30px;
 }
-.about-me {
+.content {
   padding: 160px 20px;
 }
-.about-me h1 {
+.content h1 {
   font-size: 50px;
   line-height: 1;
 }
-.about-me h2 {
+.content h2 {
   font-weight: 600;
 }
 @media (max-width: 900px) {
@@ -59,7 +59,7 @@ img {
   .project-description {
     text-align: center;
   }
-  .about-me {
+  .content {
     text-align: center;
     padding: 20px;
   }
