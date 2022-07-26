@@ -52,6 +52,10 @@ img {
 .content h2 {
   font-weight: 600;
 }
+.contact-link {
+  color: #6c63ff;
+  text-decoration: none;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 45px;
