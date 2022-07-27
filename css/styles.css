@@ -56,6 +56,9 @@ img {
   color: #6c63ff;
   text-decoration: none;
 }
+.nav-link.active {
+  color: #6c63ff !important;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 45px;
