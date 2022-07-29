@@ -73,7 +73,7 @@ img {
 .social-links a {
   color: var(--branding-color);
   background-color: rgb(232, 228, 241);
-  margin-left: 40px;
+  margin: 0 40px;
   font-size: 18px;
   padding: 10px 15px;
   border-radius: 50%;
@@ -96,5 +96,9 @@ img {
   .content {
     text-align: center;
     padding: 20px;
+  }
+  .social-links a {
+    margin: 0 20px;
+    font-size: 10px;
   }
 }
